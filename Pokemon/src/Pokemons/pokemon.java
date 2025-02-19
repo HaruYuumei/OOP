@@ -1,17 +1,17 @@
-package Yuumei;
+package Pokemons;
 
 public class pokemon {
 
 	//normal attributes
-	String name;
-	int id;
-	String type;
+	public String name;
+	public int id;
+	public String type;
 	//combat attributes
-	float health;
-	float defense;
-	float agility;
-	int level;
-	float experience;
+	public float health;
+	public float defense;
+	public float agility;
+	public int level;
+	public float experience;
 	
 	pokemon(String nome,int pid,String tipo,float hp,float def,float agi,int lv,float xp){
 		name=nome;
